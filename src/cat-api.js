@@ -1,3 +1,7 @@
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
+const errorEl = document.querySelector('.error');
+
 const BASE_URL = 'https://api.thecatapi.com/v1';
 const API_KEY =
   'live_rh691CkKOhu3guM2IhoI8wiqmhHcYRRytdKV3ZbAXWZ1dTADan4OMRiVEYxQs6Mf';
